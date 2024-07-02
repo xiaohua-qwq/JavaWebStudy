@@ -16,6 +16,33 @@
         <url-pattern>/userServlet</url-pattern>
     </servlet-mapping>
 
+    
+    
+    <servlet>
+        <servlet-name>pathServlet</servlet-name>
+        <servlet-class>org.xiaohuadev.servlet.PathServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pathServlet</servlet-name>
+        <url-pattern>/ps</url-pattern>
+    </servlet-mapping>
+    <!--<servlet-mapping>
+        <servlet-name>pathServlet</servlet-name>
+        一个servlet可以有多个访问路径和servlet-mapping
+        但是每个访问路径只能对应一个servlet
+        <url-pattern>/ps</url-pattern>
+        <url-pattern>/pathServlet</url-pattern>
+    </servlet-mapping>-->
+
+    <!--<servlet-mapping>
+        <servlet-name>pathServlet</servlet-name>
+        <url-pattern>/pathServletA</url-pattern>
+        <url-pattern>/pathServletB</url-pattern>
+        模糊匹配
+        <url-pattern>/*</url-pattern>
+        <url-pattern>/a/*</url-pattern>
+        <url-pattern>*.txt</url-pattern>
+    </servlet-mapping>-->
 
 
 </web-app>

@@ -16,6 +16,16 @@
         <url-pattern>/userServlet</url-pattern>
     </servlet-mapping>
 
+    
+    
+    <servlet>
+        <servlet-name>pathServlet</servlet-name>
+        <servlet-class>org.xiaohuadev.servlet.PathServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pathServlet</servlet-name>
+        <url-pattern>/ps</url-pattern>
+    </servlet-mapping>
 
 
 </web-app>
