@@ -13,7 +13,7 @@ import java.util.Enumeration;
 
 @WebServlet(
         name = "ServletCfg",
-        urlPatterns = "config",
+        urlPatterns = "/config",
         initParams = {
                 @WebInitParam(name = "key1", value = "value1"),
                 @WebInitParam(name = "key2", value = "value2")
