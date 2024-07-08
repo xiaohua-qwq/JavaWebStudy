@@ -5,7 +5,6 @@
          version="6.0">
 
 
-
     <servlet>
         <servlet-name>userServlet</servlet-name>
         <servlet-class>org.xiaohuadev.servlet.UserServlet</servlet-class>
@@ -16,8 +15,7 @@
         <url-pattern>/userServlet</url-pattern>
     </servlet-mapping>
 
-    
-    
+
     <servlet>
         <servlet-name>pathServlet</servlet-name>
         <servlet-class>org.xiaohuadev.servlet.PathServlet</servlet-class>
@@ -42,6 +40,25 @@
         <url-pattern>/*</url-pattern>
         <url-pattern>/a/*</url-pattern>
         <url-pattern>*.txt</url-pattern>
+    </servlet-mapping>-->
+
+    <!-- ServletConfig相关属性 也可以通过@WebServlet注解配置
+    <servlet>
+        <servlet-name>ServletCfg</servlet-name>
+        <servlet-class>org.xiaohuadev.servlet.ServletCfg</servlet-class>
+        <init-param>
+            <param-name>key1</param-name>
+            <param-value>key1Value1</param-value>
+        </init-param>
+        <init-param>
+            <param-name>key2</param-name>
+            <param-value>key2Value2</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletCfg</servlet-name>
+        <url-pattern>/config</url-pattern>
     </servlet-mapping>-->
 
 
