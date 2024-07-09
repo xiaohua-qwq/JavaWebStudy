@@ -60,6 +60,15 @@
         <servlet-name>ServletCfg</servlet-name>
         <url-pattern>/config</url-pattern>
     </servlet-mapping>-->
+    
+    <context-param>
+        <param-name>encoding</param-name>
+        <param-value>UTF-8</param-value>
+    </context-param>
+    <context-param>
+        <param-name>adminName</param-name>
+        <param-value>zhangsan</param-value>
+    </context-param>
 
 
 </web-app>
