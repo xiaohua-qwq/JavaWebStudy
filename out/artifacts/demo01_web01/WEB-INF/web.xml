@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+
+    <servlet>
+        <servlet-name>userServlet</servlet-name>
+        <servlet-class>org.xiaohuadev.servlet.UserServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>userServlet</servlet-name>
+        <url-pattern>/userServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>pathServlet</servlet-name>
+        <servlet-class>org.xiaohuadev.servlet.PathServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pathServlet</servlet-name>
+        <url-pattern>/ps</url-pattern>
+    </servlet-mapping>
+    <!--<servlet-mapping>
+        <servlet-name>pathServlet</servlet-name>
+        一个servlet可以有多个访问路径和servlet-mapping
+        但是每个访问路径只能对应一个servlet
+        <url-pattern>/ps</url-pattern>
+        <url-pattern>/pathServlet</url-pattern>
+    </servlet-mapping>-->
+
+    <!--<servlet-mapping>
+        <servlet-name>pathServlet</servlet-name>
+        <url-pattern>/pathServletA</url-pattern>
+        <url-pattern>/pathServletB</url-pattern>
+        模糊匹配
+        <url-pattern>/*</url-pattern>
+        <url-pattern>/a/*</url-pattern>
+        <url-pattern>*.txt</url-pattern>
+    </servlet-mapping>-->
+
+    <!-- ServletConfig相关属性 也可以通过@WebServlet注解配置
+    <servlet>
+        <servlet-name>ServletCfg</servlet-name>
+        <servlet-class>org.xiaohuadev.servlet.ServletCfg</servlet-class>
+        <init-param>
+            <param-name>key1</param-name>
+            <param-value>key1Value1</param-value>
+        </init-param>
+        <init-param>
+            <param-name>key2</param-name>
+            <param-value>key2Value2</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletCfg</servlet-name>
+        <url-pattern>/config</url-pattern>
+    </servlet-mapping>-->
+    
+    <context-param>
+        <param-name>encoding</param-name>
+        <param-value>UTF-8</param-value>
+    </context-param>
+    <context-param>
+        <param-name>adminName</param-name>
+        <param-value>zhangsan</param-value>
+    </context-param>
+
+
+</web-app>
