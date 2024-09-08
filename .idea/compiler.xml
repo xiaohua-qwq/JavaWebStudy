@@ -10,7 +10,7 @@
         <module name="demo04-path" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="21">
       <module name="schedule-system" target="21" />
     </bytecodeTargetLevel>
   </component>

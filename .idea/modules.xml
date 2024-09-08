@@ -5,6 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/demo01-web01/demo01-web01.iml" filepath="$PROJECT_DIR$/demo01-web01/demo01-web01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo02/demo02.iml" filepath="$PROJECT_DIR$/demo02/demo02.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo03-forward-redirect/demo03-forward-redirect.iml" filepath="$PROJECT_DIR$/demo03-forward-redirect/demo03-forward-redirect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo05-cookie/demo05-cookie.iml" filepath="$PROJECT_DIR$/demo05-cookie/demo05-cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo06/demo06.iml" filepath="$PROJECT_DIR$/demo06/demo06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo07-filter/demo07-filter.iml" filepath="$PROJECT_DIR$/demo07-filter/demo07-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo08-listener/demo08-listener.iml" filepath="$PROJECT_DIR$/demo08-listener/demo08-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/schedule-system/schedule-system.iml" filepath="$PROJECT_DIR$/schedule-system/schedule-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/web-all.iml" filepath="$PROJECT_DIR$/.idea/web-all.iml" />
     </modules>
